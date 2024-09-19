@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <script src="script.js"></script>
+    <link rel="stylesheet" href="style.css">
+    <title>Key Press Game</title>
+</head>
+<body onload="disabled()">
+    <div class="game">
+        <h1>Key Press Game</h1>
+        <br>
+        <label for="player1Name">Player 1 Name:</label>
+        <input type="text" id="player1Name" maxlength="20">
+        <label for="set1">Set key:</label>
+        <input  type="text" id="set1" maxlength="1">
+        <br><br>
+        <label for="player2Name">Player 2 Name:</label>
+        <input type="text" id="player2Name" maxlength="20">
+        <label for="set2">Set key:</label>
+        <input  type="text" id="set2" maxlength="1">
+        <br><br>
+        <h1 id="p1value"style="color:#ff9500;"></h1>
+        <h1 id="p2value" style="color: #00ff88;"></h1> <br>
+        <button id="submitBtn" onclick="game()">Start Game</button>
+        <br><br>
+        <label for="player">Press Keys Here</label><br>
+        <input type="text" id="player" maxlength="1" onkeypress="handleKeyPress(event)">
+        <h1 id="score">Let's Start</h1>
+        <h2 id="winner">Winner will be shown here!</h2>
+        <br>
+    </div>
+</body>
+</html>

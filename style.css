@@ -1,0 +1,62 @@
+body {
+    font-family: Poppins;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    height: 100vh;
+    background: linear-gradient(135deg, #ff9500, #00ffb3);
+}
+
+.game {
+    margin-top: 20px;
+    width: 500px;
+    padding: 20px;
+    border-radius: 5px;
+    background-color: rgba(255, 255, 255, 0.9);
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+
+h1 {
+    font-size: 24px;
+    margin: 0;
+}
+
+h2 {
+    font-size: 20px;
+    color: #ff9500;
+}
+
+input[type="text"] {
+    padding: 8px;
+    font-size: 16px;
+    width: 140px;
+    font-family: Poppins;
+}
+#set1, #set2 {
+    width: 50px;
+    font-family: Poppins;
+}
+button {
+    font-family: Poppins;
+    padding: 10px 20px;
+    font-size: 18px;
+    background-color: #ff9500;
+    color: white;
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+button:hover {
+    background-color: #ff95007e;
+}
+
+.set input[type="text"] {
+    padding: 8px;
+    font-size: 16px;
+    width: 140px;
+}
